@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuItemMC"
+        android:title="Multiple Choice App"
+        android:icon="@drawable/mc_icon"
+        android:orderInCategory="25"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menuItemPat"
+        android:title="Patient App"
+        android:icon="@drawable/patient_icon"
+        android:orderInCategory="102"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menuItemOC"
+        android:title="OC Transpo App"
+        android:icon="@drawable/oc_icon"
+        android:orderInCategory="50"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menuStats"
+        android:title="Movie Stats"
+        android:icon="@drawable/stats"
+        android:orderInCategory="103"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menuItemAbout"
+        android:title="About"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+</menu>

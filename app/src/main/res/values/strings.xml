@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Alex</string>
+    <string name="movies">Movies</string>
+    <string name="hello">Movie Info by Alexander Ross</string>
+    <string name="info">Info</string>
+    <string name="clear_movies">Clear movies</string>
+    <string name="add_movies">Add Movie</string>
+    <string name="movie_list">Movie List</string>
+    <string name="list_of_movies">Movie List</string>
+    <string name="title_activity_movie_info">MovieInfo</string>
+    <string name="cancel">Cancel</string>
+    <string name="max">max</string>
+    <string name="min">min</string>
+    <string name="avg">avg</string>
+    <string name="av">Ratings   min: max: avg:</string>
+
+</resources>

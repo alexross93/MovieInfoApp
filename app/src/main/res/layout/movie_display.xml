@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDisplay"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@android:color/holo_purple" />
+
+
+
+    <TextView
+        android:id="@+id/movieList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/list_of_movies"
+        android:textAllCaps="true"
+        android:textSize="28dp"
+        tools:textColor="@android:color/black" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/moviesLV"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="2" />
+
+
+
+    <Button
+        android:id="@+id/addMovieBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_movies"
+        android:layout_above="@id/downloadMoviesBtn"/>
+
+    <Button
+        android:id="@+id/deleteAllMoviesBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_movies"
+        android:layout_above="@id/downloadMoviesBtn"/>
+
+    <Button
+        android:id="@+id/downloadMoviesBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Download Movies"/>
+
+</LinearLayout>

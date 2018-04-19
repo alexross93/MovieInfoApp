@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/PosterImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/Movie_rate"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/cinema"/>
+
+    <TextView
+        android:id="@+id/Movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:ems="11"
+        android:text="Title"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Movie_Gen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Movie_title"
+        android:layout_toEndOf="@+id/PosterImg"
+        android:ems="10"
+        android:text="Genre: "
+        android:textSize="10sp" />
+
+    <TextView
+        android:textSize="10dp"
+        android:id="@+id/Movie_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Movie_Gen"
+        android:layout_toEndOf="@+id/PosterImg"
+        android:ems="10"
+        android:text="Rating: " />
+
+
+</RelativeLayout>
